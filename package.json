@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "start:shell": "ng serve shell",
+    "start:users": "ng serve users",
+    "build:shell": "ng build shell",
+    "build:users": "ng build users",
+    "watch:shell": "ng build shell --watch --configuration development",
+    "watch:users": "ng build users --watch --configuration development",
     "test": "ng test"
   },
   "private": true,
